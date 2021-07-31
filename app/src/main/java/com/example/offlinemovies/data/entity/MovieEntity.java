@@ -1,4 +1,4 @@
-package com.example.offlinemovies.data;
+package com.example.offlinemovies.data.entity;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
@@ -18,7 +18,7 @@ public class MovieEntity {
     private double popularity;
     private int voteCount;
     private boolean video;
-    private String posterPath;
+    private String poster_path;
     private boolean adult;
     private String backdropPath;
     private String originalLanguage;
